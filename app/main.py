@@ -9,7 +9,7 @@ app = FastAPI(
     version="1.0.0",
     description="Focused e-commerce API for the Docker engineering journey.",
 )
-
+# Phase 4 cache test
 class ProductResponse(BaseModel):
     id: int
     name: str
