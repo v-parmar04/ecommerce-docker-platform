@@ -1,0 +1,10 @@
+services:
+  ecommerce-api:
+    build:
+      context: ../app/ecommerce
+    container_name: ecommerce-api
+    ports:
+      - "8000:8000"
+    environment:
+      APP_NAME: Ecommerce Docker Platform
+      APP_ENV: container
