@@ -10,6 +10,7 @@ app = FastAPI(
     description="Focused e-commerce API for the Docker engineering journey.",
 )
 # Phase 4 cache test
+# phase 4 bad main.py update test 
 class ProductResponse(BaseModel):
     id: int
     name: str
