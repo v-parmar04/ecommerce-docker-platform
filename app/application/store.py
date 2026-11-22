@@ -8,7 +8,7 @@ class Product:
     price: float
 
 PRODUCTS = [
-    Product(1, "Laptop", "Developer laptop", 899.99),
+    Product(1, "Desktop", "Developer Desktop", 899.99),
     Product(2, "Mechanical Keyboard", "USB mechanical keyboard", 89.99),
     Product(3, "Wireless Mouse", "Ergonomic wireless mouse", 39.99),
     Product(4, "USB-C Dock", "Multi-port USB-C docking station", 129.99),
