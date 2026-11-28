@@ -11,6 +11,7 @@ app = FastAPI(
 )
 # Phase 4 cache test
 # phase 4 bad main.py update test 
+# phase 6 v2 edit
 class ProductResponse(BaseModel):
     id: int
     name: str
